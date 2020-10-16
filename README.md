@@ -7,3 +7,7 @@
 2. For showing hash  I used command git log. Result:8f983102d7d0661c7e8f0ce7da3690fe677c59ff
   
 
+
+
+## Errors with commit in branch_1
+5. Error was because changes were made in branch_1 and not in main
