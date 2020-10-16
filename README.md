@@ -6,4 +6,6 @@
 ## Logging 
 2. For showing hash  I used command git log. Result:8f983102d7d0661c7e8f0ce7da3690fe677c59ff
   
-
+## Switching branch 
+3. For creating new branch I used command:  git branch branch_1.
+4. For switching branches I used: git checkout branch_1.
