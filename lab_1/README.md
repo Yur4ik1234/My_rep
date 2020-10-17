@@ -16,3 +16,6 @@
 
 ## Conflict
 6. Conflict was because I tried to change README.md in one place from two different branches.
+
+## Web version
+7. Editing file
