@@ -20,3 +20,7 @@
 ## Web version
 7. Editing file
 8. I use command : git pull to synchronize web and local versions 
+
+## Adding picture
+9. I added picture to README.md
+![alt text](https://github.com/Yur4ik1234/My_rep/blob/main/lab_1/photo_2020-10-17_17-23-31.jpg "Bill Gates")
