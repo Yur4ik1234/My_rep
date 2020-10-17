@@ -19,3 +19,4 @@
 
 ## Web version
 7. Editing file
+8. I use command : git pull to synchronize web and local versions 
