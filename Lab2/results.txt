@@ -15,3 +15,12 @@ No URL passed to function
 Time is:  11:29:38 AM
 Date is:  11-16-2020
 success
+Good afternoon
+========================================
+Результат без параметрів: 
+No URL passed to function
+========================================
+Результат з правильною URL: 
+Time is:  11:33:29 AM
+Date is:  11-16-2020
+success
