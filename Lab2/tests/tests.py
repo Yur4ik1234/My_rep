@@ -23,7 +23,7 @@ class TestClass(unittest.TestCase):
 
     def test_time_check(self):
         # Ваш захист
-        self.assertEqual(time_check(), 'Good Morning')
+        self.assertTrue(time_check(), 'Good Morning')
 
     def test_my_fun(self):
         self.assertEqual(my_good_fun(), "success")

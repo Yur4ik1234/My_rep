@@ -1,9 +1,10 @@
 
 import requests
 import ntplib
-from datetime import datetime
 import datetime
 import time
+
+
 
 def get_time_if_url_not_work():
     c = ntplib.NTPClient()
@@ -47,13 +48,12 @@ def time_check():
      currentTime.hour
      if currentTime.hour < 12:
          print('Good Morning')
-         return ('Good Morning')
-     elif 12 <= currentTime.hour < 18:
-         print('Goof afternoon')
-         return ('Good afternoon')
+         return True
+     elif 12 <= currentTime.hour:
+         print('Good afternoon')
+         return  True
      else:
-         print('Good evening')
-         return ('Good evening')
+         return False 
 
 
 time_check()
