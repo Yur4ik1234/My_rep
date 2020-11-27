@@ -1,6 +1,5 @@
 
 import requests
-import ntplib
 import datetime
 import time
 
