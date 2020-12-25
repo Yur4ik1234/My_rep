@@ -19,3 +19,15 @@ and redirect output to `my_work.log`
 7. Create Dockerfile.monitoring and build, using command
 `sudo docker build --file Dockerfile.monitoring 
 -t yur4ik1234/labdevops:monitoring`
+
+8. Run server in background and use command `docker run -it --net=host --name=monitoring
+ --rm -v $(pwd)/server.log:/app/server.log yur4ik1234/labdevops:monitoring` 
+to save monitoring output to server.log
+
+|        | Links           
+| ------------- |:-------------:
+| To rep    | https://hub.docker.com/r/yur4ik1234/labdevops|
+| To django | https://hub.docker.com/layers/yur4ik1234/labdevops/django/images/sha256-33f69b90d4334f3757d7bf6cfed7dffdcddc608b2490ffa0b0a1918e897b572d?context=explore|
+| To monitoring| https://hub.docker.com/layers/yur4ik1234/labdevops/monitoring/images/sha256-af3e553faa028859d916820fceaba28970928b9575c33e526ef629d80f1d419f?context=explore |
+
+
