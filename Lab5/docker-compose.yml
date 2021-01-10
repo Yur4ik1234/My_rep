@@ -1,10 +1,10 @@
-version: '3.7'
+version: '3.8'
 services:
   hits:
     build:
       context: .
       dockerfile: Dockerfile.app
-    image: bobas/lab4-examples:compose-app
+    image: yur4ik1234/laba5:compose-app
     container_name: app
     depends_on:
       - redis
@@ -19,7 +19,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.tests
-    image: bobas/lab4-examples:compose-tests
+    image: yur4ik1234/laba5:compose-tests
     container_name: tests
     depends_on:
       - hits
