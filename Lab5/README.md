@@ -12,3 +12,18 @@ And after that my site started working.
 to test all pages. Firstly it did not work, but after I vreated logs dir 
 it started working. All 4 tests passed 
 
+###Makefile
+
+5. Makefile derictives 
+
+    STATES and REPO - variables that contain tag names and the Docker Hub repository name;
+    .PHONY - a make utility that tells the file that the following targets are not files;
+    $(STATES) - target purpose build container;
+    run - target designation for creating network that will run the application; launch the application and repository redis;
+    test-app - target to run tests;
+    docker-prune - target to clean resources to be used in the operation of Docker.
+
+6. Using commands `sudo make app tests`, `sudo make run`, `sudo make test-app`
+
+7.Usaing commands: `sudo make docker-prune` and  `sudo make docker-push` to 
+push images
