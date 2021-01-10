@@ -24,8 +24,17 @@ it started working. All 4 tests passed
 
 6. Using commands `sudo make app tests`, `sudo make run`, `sudo make test-app`
 
+![alt text](https://github.com/Yur4ik1234/My_rep/blob/main/Lab5/images/Screenshot%20from%202021-01-10%2022-51-52.png "Image1")
+
+![alt text](https://github.com/Yur4ik1234/My_rep/blob/main/Lab5/images/Screenshot%20from%202021-01-10%2022-52-05.png "Image2")
+
+![alt text](https://github.com/Yur4ik1234/My_rep/blob/main/Lab5/images/Screenshot%20from%202021-01-10%2022-52-18.png "Image3")
+
+
 7. Usaing commands: `sudo make docker-prune` and  `sudo make docker-push` to 
 push images
+
+### Docker-compose
 
 8. Creating `docker-compose.yaml`
 
